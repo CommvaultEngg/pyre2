@@ -1,0 +1,12 @@
+MANIFEST
+/build
+/dist
+src/re2.html
+src/re2.so
+re2.so
+*~
+*.pyc
+*.swp
+*.egg-info
+
+CVS

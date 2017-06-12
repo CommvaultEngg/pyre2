@@ -1,0 +1,40 @@
+running build
+running build_ext
+building 're2' extension
+C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\BIN\cl.exe /c /nologo /Ox /MD /W3 /GS- /DNDEBUG -IC:/Users/spamidiparthi/Downloads/re2-master/re2-master -IC:\Python26\include -IC:\Python26\PC /Tpsrc/re2.cpp /Fobuild\temp.win32-2.6\Release\src/re2.obj -std=c++11
+re2.cpp
+c:\python26\include\pymath.h(26) : warning C4273: 'acosh' : inconsistent dll linkage
+        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\INCLUDE\math.h(475) : see previous definition of 'acosh'
+c:\python26\include\pymath.h(30) : warning C4273: 'asinh' : inconsistent dll linkage
+        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\INCLUDE\math.h(477) : see previous definition of 'asinh'
+c:\python26\include\pymath.h(34) : warning C4273: 'atanh' : inconsistent dll linkage
+        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\INCLUDE\math.h(479) : see previous definition of 'atanh'
+c:\python26\include\pymath.h(38) : warning C4273: 'log1p' : inconsistent dll linkage
+        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\INCLUDE\math.h(503) : see previous definition of 'log1p'
+C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\INCLUDE\xtgmath.h(176) : warning C4273: 'acosh' : inconsistent dll linkage
+        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\INCLUDE\math.h(475) : see previous definition of 'acosh'
+C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\INCLUDE\xtgmath.h(177) : warning C4273: 'asinh' : inconsistent dll linkage
+        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\INCLUDE\math.h(477) : see previous definition of 'asinh'
+C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\INCLUDE\xtgmath.h(178) : warning C4273: 'atanh' : inconsistent dll linkage
+        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\INCLUDE\math.h(479) : see previous definition of 'atanh'
+C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\INCLUDE\xtgmath.h(195) : warning C4273: 'log1p' : inconsistent dll linkage
+        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\INCLUDE\math.h(503) : see previous definition of 'log1p'
+C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\INCLUDE\xlocale(337) : warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+C:/Users/spamidiparthi/Downloads/re2-master/re2-master\re2/re2.h(728) : warning C4251: 're2::RE2::pattern_' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 're2::RE2'
+C:/Users/spamidiparthi/Downloads/re2-master/re2-master\re2/re2.h(729) : warning C4251: 're2::RE2::options_' : class 're2::RE2::Options' needs to have dll-interface to be used by clients of class 're2::RE2'
+        C:/Users/spamidiparthi/Downloads/re2-master/re2-master\re2/re2.h(537) : see declaration of 're2::RE2::Options'
+C:/Users/spamidiparthi/Downloads/re2-master/re2-master\re2/re2.h(730) : warning C4251: 're2::RE2::prefix_' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 're2::RE2'
+C:/Users/spamidiparthi/Downloads/re2-master/re2-master\re2/re2.h(741) : warning C4251: 're2::RE2::error_arg_' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 're2::RE2'
+C:/Users/spamidiparthi/Downloads/re2-master/re2-master\re2/re2.h(751) : warning C4251: 're2::RE2::rprog_once_' : struct 'std::once_flag' needs to have dll-interface to be used by clients of class 're2::RE2'
+        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\INCLUDE\mutex(456) : see declaration of 'std::once_flag'
+C:/Users/spamidiparthi/Downloads/re2-master/re2-master\re2/re2.h(752) : warning C4251: 're2::RE2::num_captures_once_' : struct 'std::once_flag' needs to have dll-interface to be used by clients of class 're2::RE2'
+        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\INCLUDE\mutex(456) : see declaration of 'std::once_flag'
+C:/Users/spamidiparthi/Downloads/re2-master/re2-master\re2/re2.h(753) : warning C4251: 're2::RE2::named_groups_once_' : struct 'std::once_flag' needs to have dll-interface to be used by clients of class 're2::RE2'
+        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\INCLUDE\mutex(456) : see declaration of 'std::once_flag'
+C:/Users/spamidiparthi/Downloads/re2-master/re2-master\re2/re2.h(754) : warning C4251: 're2::RE2::group_names_once_' : struct 'std::once_flag' needs to have dll-interface to be used by clients of class 're2::RE2'
+        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\INCLUDE\mutex(456) : see declaration of 'std::once_flag'
+C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\BIN\link.exe /DLL /nologo /INCREMENTAL:NO /LIBPATH:C:/Users/spamidiparthi/Downloads/re2-master/re2-master/compile/Release /LIBPATH:C:\Python26\libs /LIBPATH:C:\Python26\PCbuild re2.lib /EXPORT:initre2 build\temp.win32-2.6\Release\src/re2.obj /OUT:build\lib.win32-2.6\re2.pyd /IMPLIB:build\temp.win32-2.6\Release\src\re2.lib /MANIFESTFILE:build\temp.win32-2.6\Release\src\re2.pyd.manifest
+   Creating library build\temp.win32-2.6\Release\src\re2.lib and object build\temp.win32-2.6\Release\src\re2.exp
+C:\Program Files (x86)\Windows Kits\8.1\bin\x86\mt.exe -nologo -manifest build\temp.win32-2.6\Release\src\re2.pyd.manifest -outputresource:build\lib.win32-2.6\re2.pyd;2
+
+build\temp.win32-2.6\Release\src\re2.pyd.manifest : general error c1010070: Failed to load and parse the manifest. The system cannot find the file specified.
